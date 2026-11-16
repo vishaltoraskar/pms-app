@@ -1,0 +1,12 @@
+node_modules
+.next
+next-env.d.ts
+*.tsbuildinfo
+
+# local database file (created automatically on first run)
+data/
+
+# secrets: never commit these
+.env
+.env.local
+.env*.local
